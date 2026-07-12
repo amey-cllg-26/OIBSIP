@@ -1,0 +1,62 @@
+==========================================
+NMAP SCAN RESULTS & ANALYSIS
+Task 1 - Security Analyst Internship
+Oasis Infobyte SIP Program
+==========================================
+
+Date of Scan: 12 July 2026
+Target: localhost (127.0.0.1)
+Scanner: Nmap 7.94SVN
+
+==========================================
+OPEN PORTS & SERVICES FOUND
+==========================================
+
+PORT 22/tcp - SSH (OpenSSH 7.9p1)
+- What it does: Allows secure remote login and command execution
+- Risk: MEDIUM - SSH is secure if properly configured
+- Recommendation: Use strong passwords, disable root login, use key-based auth
+
+PORT 80/tcp - HTTP (Apache 2.4.59)
+- What it does: Serves web pages and content
+- Risk: MEDIUM - Web servers can have vulnerabilities
+- Recommendation: Keep Apache updated, disable directory listing, use HTTPS
+
+PORT 3306/tcp - MySQL (MariaDB 10.11.7)
+- What it does: Database server for storing data
+- Risk: HIGH - Databases contain sensitive information
+- Recommendation: Don't expose to public, use strong passwords, restrict access
+
+==========================================
+OS DETECTION RESULT
+==========================================
+
+Operating System: Linux
+Kernel: Linux 5.x/6.x (detected via TCP/IP fingerprinting)
+
+==========================================
+SECURITY RECOMMENDATIONS
+==========================================
+
+1. Close unnecessary ports - only keep what's needed
+2. Use strong passwords and key-based authentication for SSH
+3. Regularly update Apache and MySQL to patch vulnerabilities
+4. Implement a firewall (UFW) to restrict access
+5. Disable root login over SSH
+
+==========================================
+ETHICAL STATEMENT
+==========================================
+
+This scan was performed ONLY on localhost (127.0.0.1) for educational
+purposes as part of my Oasis Infobyte internship. No external systems
+were scanned without authorization.
+
+==========================================
+LEARNING OUTCOMES
+==========================================
+
+- Understanding of Nmap and its scanning capabilities
+- Knowledge of common open ports and their associated services
+- Awareness of network security fundamentals
+- Importance of ethical scanning practices

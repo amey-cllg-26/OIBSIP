@@ -1,0 +1,43 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-07-12 10:38 IST
+Stats: 0:00:06 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 66.67% done; ETC: 10:38 (0:00:03 remaining)
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000040s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.7p1 Debian 5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.59 ((Debian))
+3306/tcp open  mysql   MySQL 5.5.5-10.11.7-MariaDB-4
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.54 seconds
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-07-12 10:39 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00014s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=7/12%OT=22%CT=1%CU=42480%PV=N%DS=0%DC=L%G=Y%TM=6A53
+OS:218B%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)
+OS:SEQ(SP=102%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=102%GCD=1%ISR=109%TI
+OS:=Z%CI=Z%TS=A)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=103%GCD
+OS:=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MF
+OS:FD7NNT11NW7%O4=MFFD7ST11NW7%O5=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=
+OS:8200%W3=8200%W4=8200%W5=8200%W6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNS
+OS:NW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%
+OS:DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%
+OS:O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%
+OS:W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%
+OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.85 seconds
